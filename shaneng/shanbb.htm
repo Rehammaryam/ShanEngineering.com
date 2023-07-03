@@ -1,0 +1,386 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: white;}
+#News {background-color: white;}
+#Contact {background-color: white;}
+#About {background-color: white;}
+</style>
+</head>
+<body>
+
+<header>
+        <img src="logo.png" alt="Logo" class="logo" style="width: 100px; height: auto; float: left;">
+        <img src="logo2.png" alt="Header Image" class="header-image" style="width: 500px";>
+</header>  
+
+<button class="tablink" onclick="openPage('Home', this, 'white')">Home</button>
+<button class="tablink" onclick="openPage('News', this, 'white')" id="defaultOpen">Services</button>
+<button class="tablink" onclick="openPage('Contact', this, 'white')">Contact</button>
+<button class="tablink" onclick="openPage('About', this, 'white')">About</button>
+
+<div id="Home" class="tabcontent">
+   <style>
+        body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
+        .container { display: flex; }
+        .content { flex: 1; padding: 20px; }
+        .content img { display: block; max-width: 100%; height: auto; margin-bottom: 10px; }
+        .content p { line-height: 1.5; 
+          background-color: lightgrey; }
+    </style>
+<body>
+    <div class="container">
+        <div class="content">
+            
+            <img src="shan2.jpg" alt="no Image"width="600" height="350" >
+            <p><h1>COLLABORATION AND COMMUNICATION:</h1><h3>We believe in strong collaboration and effective communication with our clients. We work closely with you to understand your unique requirements and provide tailored solutions that align with your goals and objectives. </h3> 
+            <br><h1>TIMELY DELIVERY:</h1><h3>We understand the importance of meeting deadlines. Our streamlined processes and efficient project management ensure that your projects are delivered on time, without compromising on quality.</h3>
+            </p>
+        </div>
+        <div class="content" style="background: url(shan.jpg) no-repeat; opacity: 0.7; background-size: cover;">
+            
+            <p><h1>WE OFFERED A WIDE RANGE OF SERVICES TAILORED 
+            TO MEET YOUR SPECIFIC REQUIRMENTS: </h1><h3> we specialize in providing cutting-edge solutions for your design and manufacturing needs. Our team is here to assist you throughout the entire product development cycle, from concept to production.
+
+            With our expertise in Computer-Aided Design (CAD) and Computer-Aided Manufacturing (CAM), we offer a wide range of services tailored to meet your specific requirements. Whether you need assistance with 3D modeling, simulation, prototyping, or CNC machining, we have the knowledge and tools to bring your ideas to life.
+            </h3></p>
+            <img src="shan1.jpg" alt="no Image" width="600" height="400" >
+        </div>
+    </div>
+</div>
+
+
+
+
+<div id="News" class="tabcontent">
+<section id="services" class="section">
+  <div class="container">
+    <div class="service-card">
+      <img src="shan4.jpg" alt="Service 1" height="250" width="350">
+      <h2>Dies and Molds</h2>
+      <p>At our company, we specialize in designing and manufacturing high-quality dies and molds for various industries. Our engineering expertise and state-of-the-art technology enable us to deliver precision tools that meet the exact specifications of our clients.</p>
+      <p>With our dies and molds, you can achieve efficient and cost-effective production processes. We offer custom solutions tailored to your specific needs, whether it's for metal stamping, injection molding, or any other manufacturing process.</p>
+      <p>From concept to completion, we are committed to delivering superior dies and molds that optimize production efficiency, reduce downtime, and enhance product quality. Our dedication to excellence has earned us a reputation for delivering outstanding results within budget and on schedule.</p>
+      <p>Contact us today to discuss your dies and molds needs. We look forward to partnering with you to achieve your manufacturing goals.</p>
+      
+    </div>
+    <div class="service-card">
+      <img src="shan6.jpg" alt="Service 2" height="250" width="350">
+        <h2>CAD/CAM Solution</h2>
+        <p>Our company offers cutting-edge CAD/CAM solutions that revolutionize the design and manufacturing process. With our advanced software and expertise, we empower businesses to transform their ideas into reality with speed, accuracy, and efficiency.</p>
+        <p>Using state-of-the-art CAD/CAM software, our team of skilled engineers can create 2D and 3D models, simulate real-world scenarios, and generate precise toolpaths for production. Whether you require complex product designs, architectural blueprints, or intricate molds, our CAD/CAM solutions provide the tools you need to streamline your workflow.</p>
+        <p>Our CAD/CAM services encompass a wide range of industries, including aerospace, automotive, industrial design, and more. We understand the unique challenges and requirements of each sector, allowing us to deliver tailored solutions that meet and exceed expectations.</p>
+        <p>By integrating CAD/CAM into your operations, you can significantly reduce design iterations, optimize manufacturing processes, and achieve faster time-to-market. Our solutions enable seamless collaboration, ensuring effective communication between designers, engineers, and production teams.</p>
+    </div>
+    <div class="service-card">
+      <img src="shan3.jpg" alt="Service 3" height="250" width="350">
+        <h2>Part Manufacturing</h2>
+        <p>At our company, we specialize in precision part manufacturing for various industries. With state-of-the-art technology and a skilled team of engineers, we have the expertise to produce high-quality parts that meet your exact specifications.</p>
+        <p>From small-scale components to large structural parts, we leverage advanced manufacturing techniques to ensure accuracy, durability, and efficiency. Our comprehensive capabilities encompass CNC machining, injection molding, sheet metal fabrication, and more.</p>
+        <p>Using the latest CAD/CAM software, we can transform your designs into tangible parts with speed and precision. Our engineers work closely with you to understand your requirements, offering design optimization suggestions and ensuring seamless integration into your production processes.</p>
+        <p>Quality is our top priority. We adhere to stringent quality control measures throughout the manufacturing process to ensure that every part meets the highest standards. Our commitment to excellence and attention to detail have earned us the trust of clients across industries.</p>
+        <p>Whether you need prototype development or large-scale production, we have the capabilities to handle your part manufacturing needs. With our expertise, cutting-edge technology, and commitment to customer satisfaction, we deliver superior parts that contribute to the success of your projects.</p>
+        <p>Contact us today to discuss your part manufacturing requirements. We look forward to partnering with you and delivering top-quality parts that meet your exact specifications.</p>
+    
+    </div>
+</section>
+  
+  
+
+
+
+</div>
+
+<div id="Contact" class="tabcontent">
+
+
+   <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 50px;
+    }
+
+    .contact-details {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .contact-info {
+      padding: 20px;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+    }
+
+    .contact-info:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    h3 {
+      color: #333;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #777;
+      font-size: 16px;
+      margin: 0;
+    }
+  </style>
+
+<body>
+  <h1>GET IN TOUCH WITH US </h1>
+
+  <div class="contact-details">
+    <div class="contact-info">
+      <h3>Email</h3>
+      <p>shan.engineering@ymail.com</p>
+    </div>
+
+    <div class="contact-info">
+      <h3>Phone</h3>
+      <p>+923216602101</p>
+    </div>
+
+    <div class="contact-info">
+      <h3>Location</h3>
+      <p>Allah Jawaya Chock, near Sarfraz Steel, Maqbool Road, Faisalabad, Pakistan</p>
+    </div>
+  </div>
+
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .contact-form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    .contact-form label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 5px;
+      margin-top: 5px;
+    }
+
+    .contact-form button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #45a049;
+    }
+  </style>
+
+<body>
+  <h1>Contact Us</h1>
+   
+    <a
+      href="javascript:void(
+        window.open(
+          'https://form.jotform.com/231613538105045',
+          'blank',
+          'scrollbars=yes,
+          toolbar=no,
+          width=700,
+          height=500'
+        )
+      )
+    ">
+      FORM
+    </a>
+ <h1>CLICK ON THIS FORM AND SEND US YOUR FEEDBACK</h1>   
+
+
+  
+
+
+  <script>
+    const form = document.getElementById('contact-form');
+
+    form.addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      // Retrieve form values
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const message = document.getElementById('message').value;
+
+      // Perform desired action with the contact information
+      console.log('Name:', name);
+      console.log('Email:', email);
+      console.log('Message:', message);
+
+      // Clear form fields
+      form.reset();
+    });
+  </script>
+
+
+</div>
+
+
+
+
+
+
+<div id="About" class="tabcontent">
+  <div class="container">
+    
+    <div class="about-content">
+      <div class="about-image">
+        <img src="shan8.jpg" alt="no Image" height="250" width="1300">
+      </div>
+      <div class="about-text">
+        <p><h1>Welcome to our SHAN ENGINEERING! We are a leading provider of innovative engineering and manufacturing solutions. With decades of industry experience, 
+        we have gained a reputation for delivering exceptional products and services to our clients.</h1></p>
+        <p><h1>Our team of highly skilled engineers, designers, and technicians is dedicated to pushing the boundaries of technology and delivering cutting-edge solutions. 
+        We leverage state-of-the-art equipment and advanced manufacturing techniques to ensure precision and quality in every project we undertake.</h1></p>
+        <p><h1>At our company, we believe in fostering long-term partnerships with our clients. We take the time to understand their unique needs and collaborate closely throughout the entire process, from initial design to final delivery. 
+        Our client-centric approach allows us to provide tailor-made solutions that meet and exceed expectations.</h1></p>
+        <p><h1>Thank you for considering us as your trusted engineering and manufacturing partner. Explore our website to learn more about our services, 
+        view our past projects, and get in touch with our team to discuss your specific requirements. 
+        We look forward to working with you and helping you achieve success.</h1></p>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+
+
+
+<style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .wrapper {
+            min-height: 100%;
+            position: relative;
+        }
+        
+        .content {
+            padding-bottom: 60px; /* Adjust the height of the footer */
+        }
+        
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+        
+        .contact-info {
+            display: flex;
+            align-items: center;
+        }
+        
+        .contact-info p {
+            margin-right: 20px;
+        }
+    </style>
+    <div class="wrapper">
+        <div class="content">
+            <!-- Your page content goes here -->
+        </div>
+        
+        <footer>
+            <div class="contact-info">
+                <p>Phone: +923216602101</p><br>
+                <p>Email: shan.engineering@ymail.com</p><br>
+                <p>Location: Allah Jawaya Chock Near Sarfraz Steel,Maqbool Road,Faisalabad</p><br>
+            </div>
+            <p>© 2023 Your Company. All rights reserved.</p>
+        </footer>
+    </div>    
+</body>
+</html>
